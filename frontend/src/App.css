@@ -1,0 +1,109 @@
+/* ==========================================
+   ROOT VARIABLES
+   ========================================== */
+:root {
+  --font-display: 'Chakra Petch', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --bg-main: #F0F4F8;
+  --card-bg: #FFFFFF;
+  --accent: #3B82F6;
+  --accent-dark: #2563EB;
+  --accent-bg: #EFF6FF;
+  --text-main: #111827;
+  --text-muted: #6B7280;
+  --border: #E5E7EB;
+  --border-dark: #D1D5DB;
+
+  --heading-blue: #1E40AF;
+  --heading-green: #059669;
+  --heading-yellow: #D97706;
+  --heading-purple: #7C3AED;
+  --heading-pink: #DB2777;
+
+  --success: #10B981;
+  --success-bg: #D1FAE5;
+  --danger: #EF4444;
+  --danger-bg: #FEE2E2;
+  --warning: #F59E0B;
+  --warning-bg: #FEF3C7;
+  --info: #38BDF8;
+  --info-bg: #E0F2FE;
+  --purple: #8B5CF6;
+  --purple-bg: #EDE9FE;
+}
+
+/* ==========================================
+   GLOBAL RESET & BASE
+   ========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* ==========================================
+   HEADINGS - Consistent Font
+   ========================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}
+
+/* ==========================================
+   LAYOUT
+   ========================================== */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-main);
+  position: relative;
+}
+
+.main-wrapper {
+  flex: 1;
+  min-width: 0;
+  padding: 1.75rem 2.5rem;
+  overflow-y: auto;
+  margin-left: 220px;
+}
+
+/* ==========================================
+   ANIMATIONS
+   ========================================== */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin 2.5s linear infinite;
+}
