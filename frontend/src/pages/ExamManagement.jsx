@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { FileSpreadsheet, Plus, Search, Calendar, X, ArrowRight, BookOpen } from "lucide-react";
 import toast from "react-hot-toast";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://campushub-ai-i7y8.onrender.com/api";
 
 export default function ExamManagement() {
   const [exams, setExams] = useState([]);
