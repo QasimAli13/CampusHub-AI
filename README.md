@@ -648,35 +648,6 @@ Students  Faculty  Admin
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots of your application here to showcase the UI.
-
-### 🏠 Dashboard
-
-```text
-Add dashboard screenshot here
-```
-
-### 🤖 AI Copilot
-
-```text
-Add AI Copilot screenshot here
-```
-
-### 📊 Analytics
-
-```text
-Add analytics screenshot here
-```
-
-### 🔐 Authentication
-
-```text
-Add login/authentication screenshot here
-```
-
----
 
 # 📊 Project Highlights
 
