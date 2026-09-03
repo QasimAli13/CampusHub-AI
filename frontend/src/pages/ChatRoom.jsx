@@ -16,7 +16,7 @@ export default function ChatRoom() {
   const userId = user?._id || user?.id;
 
   useEffect(() => {
-    socketRef.current = io("http://localhost:5000");
+    socketRef.current = io("https://campushub-ai-i7y8.onrender.com");
     socketRef.current.emit("join_chat_room", room);
 
     API.get(`/chat/${room}`)
